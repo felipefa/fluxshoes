@@ -1,3 +1,13 @@
+# Fluxshoes
+
+An ecommerce ReactJS app made to study the flux architecture.
+
+- Home Component:
+  ![Home page printscreen](assets/home.png)
+
+- Cart Component:
+  ![Cart page printscreen](assets/cart.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
