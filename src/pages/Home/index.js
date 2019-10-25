@@ -10,6 +10,7 @@ import { ProductList } from './styles';
 
 export default function Home() {
   const [products, setProducts] = useState([]);
+
   const amount = useSelector(state =>
     state.cart.reduce((sumAmount, product) => {
       sumAmount[product.id] = product.amount;
@@ -29,7 +30,7 @@ export default function Home() {
         priceFormatted: formatPrice(product.price),
       }));
 
-      setProducts({ newProducts });
+      setProducts(newProducts);
     }
 
     loadProducts();
